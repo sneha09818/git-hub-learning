@@ -11,7 +11,7 @@ jobs:
         run: echo " Code clonned from github"
   
   build:
-    needs: [code}
+    needs: [code]
     runs-on: ubuntu-latest
     steps:
       - name: Build the docker container
