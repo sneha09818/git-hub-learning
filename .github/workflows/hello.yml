@@ -1,11 +1,11 @@
-name: hi world
+name: hi world of sneha
 
 on:
   push:
     branches: [master]
 
 jobs:
-  greet:  
+  greetings:  
     runs-on: ubuntu-latest
     steps:
       - name: say hello to users
